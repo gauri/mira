@@ -1,0 +1,20 @@
+body {
+	padding: 2em;
+}
+
+header {
+	padding-bottom: 4em;
+}
+
+h4 {
+	padding-bottom: 1em;
+}
+
+.tags {
+	font-size: 1.4em;
+}
+
+section {
+	display: block;
+	padding-bottom: 3em;
+}
