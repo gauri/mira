@@ -51,6 +51,7 @@ h6 {
 }
 .link_widget {
 	float: left;
+	width: 550px;
 }
 
 .link_title {

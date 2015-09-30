@@ -1,5 +1,7 @@
 body {
-	padding: 2em;
+	width: 980px;
+	margin: auto;
+	padding-top: 4em;
 }
 
 header {
@@ -17,4 +19,14 @@ h4 {
 section {
 	display: block;
 	padding-bottom: 3em;
+}
+
+#left_col {
+	width: 650px;
+	float: left;
+}
+
+#right_col {
+	width: 330px;
+	float: left;
 }
