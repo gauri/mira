@@ -28,6 +28,10 @@ h6 {
 	font-size: 1.2em;
 }
 
+a {
+	text-decoration: none;
+}
+
 .clearfix:after {
    content: " "; /* Older browser do not support empty content */
    visibility: hidden;

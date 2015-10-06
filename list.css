@@ -18,7 +18,7 @@ h4 {
 
 section {
 	display: block;
-	padding-bottom: 3em;
+	padding-bottom: 4em;
 }
 
 #left_col {
@@ -27,6 +27,27 @@ section {
 }
 
 #right_col {
-	width: 330px;
+	width: 290px;
+	margin-left: 40px;
 	float: left;
+}
+
+#add a {
+	font-size: 1.8em;
+	background-color: #add8e6;
+	border-radius: 6px;
+	color: black;
+	padding: 0.5em 0;
+	display: block;
+	text-align: center;
+}
+
+#add a:hover {
+	background-color: #bee9f7;
+	color: #444;
+}
+
+#related a {
+	font-size: 1.5em;
+	line-height: 1.75;
 }
