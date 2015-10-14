@@ -8,9 +8,32 @@
 	<link rel="stylesheet" href="addlink.css"></link>
 </head>
 
+	<header>
+		<h1>Development Bootcamps in the US</h1>
+		<h4>In-person bootcamps that train people how to become programmers are growing in popularity. Which ones are the best?</h4>
+		<p class="tags"><strong>Tags:</strong> Development, Bootcamp, Learn to code, Programming</p>
+	</header>
+
+
+
 <body>
-
-
+	<div class="add_link">
+		<h1>Add a new link</h1>
+			<form action="" method="post">
+				<h2>URL</h1>
+				<input type="text" name="url" placeholder="http://www..." class="input"></input>
+				<h2>Title</h2>
+				<p>What's the title of this URL?</p>
+				<input type="text" name="url_title" class="input"></input>
+				<h2>Image</h2>
+				<p>Upload an image. This could be the destination URL's logo or another helpful image.</p>
+				<input type="file" name="url_image" accept="image/*"></input>
+				<h2>Brief Description</h2>
+				<p>Give a brief overview of the link's contents</p>
+				<textarea name="topic" rows="4" cols="60"></textarea>
+				<div><input type="submit" value="add link"></div>
+			</form>
+	</div>
 
 	<footer>
 	</footer>

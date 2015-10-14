@@ -1,0 +1,12 @@
+.add_link h1 {
+	margin-bottom:1em;
+}
+
+.add_link h2 {
+	font-size:1.5em;
+}
+
+h2:not(:first-child) {
+	margin-top:1em;
+
+}
