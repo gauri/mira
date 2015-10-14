@@ -1,0 +1,34 @@
+form {
+	margin-top:12em;
+	margin-left:10em;
+}
+
+.comments {
+	margin-top:2em;
+	margin-left:5.5em;
+}
+
+.vote_count_head {
+	font-size: 2em;
+}
+
+.vote_count_comment {
+	font-size: 1.25em;
+}
+
+
+.upvote_comment, .downvote_comment {
+	font-size: 1.5em;
+}
+
+.upvote_comment {
+	margin-bottom:;
+}
+
+.downvote_comment {
+	margin-top:;
+}
+
+section {
+	padding-bottom: 0em;
+}
