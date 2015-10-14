@@ -1,0 +1,8 @@
+.input {
+	width:25em;
+}
+
+h2:not(:first-child) {
+	margin-top:1em;
+
+}
