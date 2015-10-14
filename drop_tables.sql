@@ -1,0 +1,11 @@
+DROP TABLE links;
+DROP TABLE topics;
+DROP TABLE topics_links;
+DROP TABLE tags;
+DROP TABLE topics_tags;
+DROP TABLE users;
+DROP TABLE link_upvotes;
+DROP TABLE link_downvotes;
+DROP TABLE comments;
+DROP TABLE comment_upvotes;
+DROP TABLE comment_downvotes;
