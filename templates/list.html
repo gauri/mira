@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Mira</title>
-		<link rel="stylesheet" href="reset.css"></link>
-		<link rel="stylesheet" href="style.css"></link>
-		<link rel="stylesheet" href="list.css"></link>
+		<link rel="stylesheet" href="{{ url_for('static', filename='reset.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='list.css') }}">
 	</head>
 	<body>
 		<header>
@@ -13,30 +14,20 @@
 		</header>
 		<main class="clearfix">
 			<div id="left_col">
-				<section id="list" class="clearfix">
-					<div class="vote_widget">
-						<div class="upvote">&#9650;</div>
-						<div class="vote_count">666</div>
-						<div class="downvote">&#9660;</div>
-					</div>
-					<div class="link_widget">
-						<div class="link_title">Autothysis - From Wikipedia, the Free Encyclopedia</div>
-						<div class="link_blurb">Autothysis (from the Greek roots autos- αὐτός "self" and thysia θυσία "sacrifice") is the process where an animal destroys itself via an internal rupturing or explosion of an organ which ruptures the skin</div>
-						<div class="link_comments"><a href="">123 Comments</a></div>
-					</div>
-				</section>
-				<section class="clearfix">
-					<div class="vote_widget">
-						<div class="upvote">&#9650;</div>
-						<div class="vote_count">234</div>
-						<div class="downvote">&#9660;</div>
-					</div>
-					<div class="link_widget">
-						<div class="link_title">Biological Altruism</div>
-						<div class="link_blurb">In evolutionary biology, an organism is said to behave altruistically when its behaviour benefits other organisms, at a cost to itself.</div>
-						<div class="link_comments"><a href="">256 Comments</a></div>
-					</div>
-				</section>
+				{% for link in entries %}
+					<section id="list" class="clearfix">
+						<div class="vote_widget">
+							<div class="upvote">&#9650;</div>
+							<div class="vote_count">666</div>
+							<div class="downvote">&#9660;</div>
+						</div>
+						<div class="link_widget">
+							<div class="link_title">{{ link.title }}</div>
+							<div class="link_blurb">{{ link.description }}</div>
+							<div class="link_comments"><a href="">123 Comments</a></div>
+						</div>
+					</section>
+				{% endfor %}
 			</div>
 			<div id="right_col">
 				<section id="add">
